@@ -24,6 +24,7 @@
 
 - [Sobre](#sobre)
 - [Iniciando](#iniciando)
+- [Instalando](#installation)
 - [Uso](#usage)
 - [Tecnologías](#tecnologias)
 - [Autores](#authors)
@@ -37,8 +38,7 @@ Además, se busca mejorar las habilidades de programación y la comprensión de 
 El proyecto está diseñado para ser fácil de usar y personalizable, lo que permite a los usuarios adaptarlo a sus necesidades específicas. Se espera que este proyecto sea útil para aquellos que buscan mejorar la eficiencia de sus entregas y optimizar sus rutas.
 
 ## 🏁 Iniciando <a name = "Iniciando"></a>
-
-Próximamente
+Para poder ejecutar este proyecto, necesitas tener instalado .NET 6.0 en tu máquina. A continuación, se detallan los pasos para configurar el entorno de desarrollo y ejecutar el proyecto.
 ### Prerequisitos
 
 Lo que necesitas para instalar el proyecto
@@ -47,57 +47,26 @@ Lo que necesitas para instalar el proyecto
 .NET 6.0
 ```
 
-### Installing
+### Instalación <a name = "installation"></a>
 
-A step by step series of examples that tell you how to get a development env running.
+1. Clona el repositorio en tu máquina local utilizando el siguiente comando:
+   ```bash
+   git clone
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd P3_Proyecto_Final
+   ```
+3. Ejecuta el siguiente comando para ejecutar el proyecto:
+    ```bash
+    dotnet run
+    ```
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
+## ⛏️ Construido usando <a name = "built_using"></a>
 
 - [C#](https://dotnet.microsoft.com/es-es/) - Lenguaje de programación
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Autores <a name = "authors"></a>
 
 - [@diegoGTDev](https://github.com/diegoGTDev) - Lider del proyecto
 
