@@ -1,0 +1,136 @@
+{
+    "Alta Verapaz": [
+        "Izabal",
+        "Petén",
+        "Quiché",
+        "Baja Verapaz",
+        "Zacapa"
+    ],
+    "Baja Verapaz": [
+        "Alta Verapaz",
+        "Quiché",
+        "Chimaltenango",
+        "El Progreso",
+        "Zacapa"
+    ],
+    "Chimaltenango": [
+        "Guatemala",
+        "Sacatepéquez",
+        "Escuintla",
+        "Suchitepéquez",
+        "Sololá",
+        "Quiché",
+        "Baja Verapaz"
+    ],
+    "Chiquimula": [
+        "Zacapa",
+        "Jalapa",
+        "Jutiapa"
+    ],
+    "El Progreso": [
+        "Guatemala",
+        "Zacapa",
+        "Baja Verapaz",
+        "Jalapa"
+    ],
+    "Escuintla": [
+        "Guatemala",
+        "Sacatepéquez",
+        "Chimaltenango",
+        "Suchitepéquez",
+        "Santa Rosa"
+    ],
+    "Guatemala": [
+        "Sacatepéquez",
+        "Escuintla",
+        "Chimaltenango",
+        "El Progreso"
+    ],
+    "Huehuetenango": [
+        "Quiché",
+        "San Marcos",
+        "Totonicapán"
+    ],
+    "Izabal": [
+        "Alta Verapaz",
+        "Zacapa",
+        "Petén"
+    ],
+    "Jalapa": [
+        "El Progreso",
+        "Chiquimula",
+        "Jutiapa",
+        "Santa Rosa"
+    ],
+    "Jutiapa": [
+        "Jalapa",
+        "Chiquimula",
+        "Santa Rosa"
+    ],
+    "Petén": [
+        "Izabal",
+        "Alta Verapaz"
+    ],
+    "Quetzaltenango": [
+        "San Marcos",
+        "Totonicapán",
+        "Sololá",
+        "Suchitepéquez",
+        "Retalhuleu"
+    ],
+    "Quiché": [
+        "Huehuetenango",
+        "Totonicapán",
+        "Sololá",
+        "Baja Verapaz",
+        "Alta Verapaz",
+        "Chimaltenango"
+    ],
+    "Retalhuleu": [
+        "Suchitepéquez",
+        "Quetzaltenango",
+        "San Marcos"
+    ],
+    "Sacatepéquez": [
+        "Guatemala",
+        "Escuintla",
+        "Chimaltenango"
+    ],
+    "San Marcos": [
+        "Huehuetenango",
+        "Quetzaltenango",
+        "Retalhuleu"
+    ],
+    "Santa Rosa": [
+        "Escuintla",
+        "Jalapa",
+        "Jutiapa"
+    ],
+    "Sololá": [
+        "Quiché",
+        "Chimaltenango",
+        "Suchitepéquez",
+        "Totonicapán",
+        "Quetzaltenango"
+    ],
+    "Suchitepéquez": [
+        "Escuintla",
+        "Chimaltenango",
+        "Sololá",
+        "Quetzaltenango",
+        "Retalhuleu"
+    ],
+    "Totonicapán": [
+        "Huehuetenango",
+        "Quiché",
+        "Sololá",
+        "Quetzaltenango"
+    ],
+    "Zacapa": [
+        "Izabal",
+        "Chiquimula",
+        "El Progreso",
+        "Baja Verapaz",
+        "Alta Verapaz"
+    ]
+}
