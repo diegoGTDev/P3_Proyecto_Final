@@ -1,13 +1,13 @@
 [
   {
-    "id": 146,
-    "departamento": "Petén",
-    "tipo": "sucursal"
-  },
-  {
     "id": 71,
     "departamento": "Guatemala",
     "tipo": "sucursal central"
+  },
+  {
+    "id": 146,
+    "departamento": "Petén",
+    "tipo": "sucursal"
   },
   {
     "id": 310,

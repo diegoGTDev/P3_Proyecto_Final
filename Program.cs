@@ -6,5 +6,6 @@ Menu.dibujarMenu();
 int opc = Menu.esperarRespuesta();
 switch (opc)
 {
-    case 1: Console.WriteLine("Hello world"); break;
+    case 1: grafo.mostrarSucursales(); break;
+    case 2: grafo.encontrarCamino(300); break;
 }

@@ -77,8 +77,9 @@ namespace Grafos
             }
         }
 
-        public void encontrarCamino(int origenId, int destinoId)
+        public void encontrarCamino(int destinoId)
         {
+            var origenId = this.sucursales[0].id;
             if (vertices == null) return;
 
             var origen = vertices.FirstOrDefault(v => v.id == origenId);
@@ -140,7 +141,7 @@ namespace Grafos
             camino.Add(v);
             camino.Reverse();
 
-            Console.WriteLine($"Camino más corto de {vertices.Find(v => v.id == origenId).departamento} a {vertices.Find(v => v.id == destinoId).departamento} (tiempo total: {distancias[destino]} min):");
+            Console.WriteLine($"Camino más corto de Sucursal Central {vertices.Find(v => v.id == origenId).departamento} a {vertices.Find(v => v.id == destinoId).departamento} (tiempo total: {distancias[destino]} min):");
             foreach (var v in camino)
             {
             Console.Write($"{v.id} ");

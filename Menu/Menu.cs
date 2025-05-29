@@ -4,6 +4,7 @@ public static class Menu
 {
     private static ConsoleColor colorLetraActual = ConsoleColor.White;
     private static Dictionary<int, string> opciones = new Dictionary<int, string>();
+
     private static void cargarOpciones()
     {
         opciones.Add(1, "Realizar pedido");
