@@ -1,8 +1,22 @@
-{
-    "Sucursales": [
-        "Sucursal Central",
-        "Sucursal Escuintla",
-        "Sucursal Quetzaltenango",
-        "Sucursal Petén"
-    ]
-}
+[
+  {
+    "id": 146,
+    "departamento": "Petén",
+    "tipo": "sucursal"
+  },
+  {
+    "id": 71,
+    "departamento": "Guatemala",
+    "tipo": "sucursal central"
+  },
+  {
+    "id": 310,
+    "departamento": "Escuintla",
+    "tipo": "sucursal"
+  },
+  {
+    "id": 170,
+    "departamento": "Quetzaltenango",
+    "tipo": "sucursal"
+  }
+]

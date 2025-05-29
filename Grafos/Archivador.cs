@@ -17,16 +17,17 @@ namespace Archivador
         public List<Vertice> cargarDatos()
         {
             string contenido = File.ReadAllText(rutaArchivo);
-            List<PuntoReferencia> puntosReferencia = JsonSerializer.Deserialize<List<PuntoReferencia>>(contenido);
+            List<PuntoReferencia> ?puntosReferencia = JsonSerializer.Deserialize<List<PuntoReferencia>>(contenido);
             List<Vertice> vertices = new List<Vertice>();
 
-            foreach (var punto in puntosReferencia)
+            if (puntosReferencia != null)
             {
-                Vertice vertice = new Vertice(punto.id, punto.departamento, punto.tipo);
-                // Console.WriteLine($"Cargando punto de referencia: {punto.id}, {punto.departamento}, {punto.tipo}");
-                vertices.Add(vertice);
-                
-
+                foreach (var punto in puntosReferencia)
+                {
+                    Vertice vertice = new Vertice(punto.id, punto.departamento, punto.tipo);
+                    // Console.WriteLine($"Cargando punto de referencia: {punto.id}, {punto.departamento}, {punto.tipo}");
+                    vertices.Add(vertice);
+                }
             }
 
             return vertices;

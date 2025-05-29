@@ -12,7 +12,7 @@ public static class CargadorVecinos
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"❌ Error cargando vecinos: {ex.Message}");
+            Console.WriteLine($"Error cargando vecinos: {ex.Message}");
             return new Dictionary<string, List<string>>();
         }
     }

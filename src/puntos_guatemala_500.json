@@ -1,2502 +1,2502 @@
 [
-    {
-        "id": 0,
-        "departamento": "Alta Verapaz",
-        "tipo": "municipio"
-    },
-    {
-        "id": 1,
-        "departamento": "Alta Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 2,
-        "departamento": "Alta Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 3,
-        "departamento": "Alta Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 4,
-        "departamento": "Alta Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 5,
-        "departamento": "Alta Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 6,
-        "departamento": "Alta Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 7,
-        "departamento": "Alta Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 8,
-        "departamento": "Alta Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 9,
-        "departamento": "Alta Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 10,
-        "departamento": "Baja Verapaz",
-        "tipo": "municipio"
-    },
-    {
-        "id": 11,
-        "departamento": "Baja Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 12,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 13,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 14,
-        "departamento": "Baja Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 15,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 16,
-        "departamento": "Baja Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 17,
-        "departamento": "Baja Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 18,
-        "departamento": "Baja Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 19,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 20,
-        "departamento": "Baja Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 21,
-        "departamento": "Baja Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 22,
-        "departamento": "Baja Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 23,
-        "departamento": "Chimaltenango",
-        "tipo": "municipio"
-    },
-    {
-        "id": 24,
-        "departamento": "Chimaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 25,
-        "departamento": "Chimaltenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 26,
-        "departamento": "Chimaltenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 27,
-        "departamento": "Chimaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 28,
-        "departamento": "Chimaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 29,
-        "departamento": "Chimaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 30,
-        "departamento": "Chimaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 31,
-        "departamento": "Chimaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 32,
-        "departamento": "Chimaltenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 33,
-        "departamento": "Chiquimula",
-        "tipo": "municipio"
-    },
-    {
-        "id": 34,
-        "departamento": "Chiquimula",
-        "tipo": "caserío"
-    },
-    {
-        "id": 35,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 36,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 37,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 38,
-        "departamento": "Chiquimula",
-        "tipo": "aldea"
-    },
-    {
-        "id": 39,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 40,
-        "departamento": "Chiquimula",
-        "tipo": "caserío"
-    },
-    {
-        "id": 41,
-        "departamento": "Chiquimula",
-        "tipo": "colonia"
-    },
-    {
-        "id": 42,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 43,
-        "departamento": "Chiquimula",
-        "tipo": "colonia"
-    },
-    {
-        "id": 44,
-        "departamento": "Chiquimula",
-        "tipo": "caserío"
-    },
-    {
-        "id": 45,
-        "departamento": "Chiquimula",
-        "tipo": "colonia"
-    },
-    {
-        "id": 46,
-        "departamento": "Chiquimula",
-        "tipo": "caserío"
-    },
-    {
-        "id": 47,
-        "departamento": "El Progreso",
-        "tipo": "municipio"
-    },
-    {
-        "id": 48,
-        "departamento": "El Progreso",
-        "tipo": "cruce"
-    },
-    {
-        "id": 49,
-        "departamento": "El Progreso",
-        "tipo": "caserío"
-    },
-    {
-        "id": 50,
-        "departamento": "El Progreso",
-        "tipo": "caserío"
-    },
-    {
-        "id": 51,
-        "departamento": "El Progreso",
-        "tipo": "cruce"
-    },
-    {
-        "id": 52,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 53,
-        "departamento": "El Progreso",
-        "tipo": "caserío"
-    },
-    {
-        "id": 54,
-        "departamento": "El Progreso",
-        "tipo": "aldea"
-    },
-    {
-        "id": 55,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 56,
-        "departamento": "El Progreso",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 57,
-        "departamento": "El Progreso",
-        "tipo": "caserío"
-    },
-    {
-        "id": 58,
-        "departamento": "El Progreso",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 59,
-        "departamento": "El Progreso",
-        "tipo": "caserío"
-    },
-    {
-        "id": 60,
-        "departamento": "Escuintla",
-        "tipo": "municipio"
-    },
-    {
-        "id": 61,
-        "departamento": "Escuintla",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 62,
-        "departamento": "Escuintla",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 63,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 64,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 65,
-        "departamento": "Escuintla",
-        "tipo": "cruce"
-    },
-    {
-        "id": 66,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 67,
-        "departamento": "Escuintla",
-        "tipo": "caserío"
-    },
-    {
-        "id": 68,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 69,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 70,
-        "departamento": "Guatemala",
-        "tipo": "municipio"
-    },
-    {
-        "id": 71,
-        "departamento": "Guatemala",
-        "tipo": "sucursal central"
-    },
-    {
-        "id": 72,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 73,
-        "departamento": "Guatemala",
-        "tipo": "aldea"
-    },
-    {
-        "id": 74,
-        "departamento": "Guatemala",
-        "tipo": "aldea"
-    },
-    {
-        "id": 75,
-        "departamento": "Guatemala",
-        "tipo": "colonia"
-    },
-    {
-        "id": 76,
-        "departamento": "Guatemala",
-        "tipo": "colonia"
-    },
-    {
-        "id": 77,
-        "departamento": "Guatemala",
-        "tipo": "colonia"
-    },
-    {
-        "id": 78,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 79,
-        "departamento": "Guatemala",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 80,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 81,
-        "departamento": "Guatemala",
-        "tipo": "colonia"
-    },
-    {
-        "id": 82,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 83,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 84,
-        "departamento": "Huehuetenango",
-        "tipo": "municipio"
-    },
-    {
-        "id": 85,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 86,
-        "departamento": "Huehuetenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 87,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 88,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 89,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 90,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 91,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 92,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 93,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 94,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 95,
-        "departamento": "Huehuetenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 96,
-        "departamento": "Huehuetenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 97,
-        "departamento": "Huehuetenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 98,
-        "departamento": "Huehuetenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 99,
-        "departamento": "Izabal",
-        "tipo": "municipio"
-    },
-    {
-        "id": 100,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 101,
-        "departamento": "Izabal",
-        "tipo": "colonia"
-    },
-    {
-        "id": 102,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 103,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 104,
-        "departamento": "Izabal",
-        "tipo": "colonia"
-    },
-    {
-        "id": 105,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 106,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 107,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 108,
-        "departamento": "Izabal",
-        "tipo": "colonia"
-    },
-    {
-        "id": 109,
-        "departamento": "Izabal",
-        "tipo": "colonia"
-    },
-    {
-        "id": 110,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 111,
-        "departamento": "Izabal",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 112,
-        "departamento": "Izabal",
-        "tipo": "cruce"
-    },
-    {
-        "id": 113,
-        "departamento": "Izabal",
-        "tipo": "colonia"
-    },
-    {
-        "id": 114,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 115,
-        "departamento": "Jalapa",
-        "tipo": "municipio"
-    },
-    {
-        "id": 116,
-        "departamento": "Jalapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 117,
-        "departamento": "Jalapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 118,
-        "departamento": "Jalapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 119,
-        "departamento": "Jalapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 120,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 121,
-        "departamento": "Jalapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 122,
-        "departamento": "Jalapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 123,
-        "departamento": "Jalapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 124,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 125,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 126,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 127,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 128,
-        "departamento": "Jalapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 129,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 130,
-        "departamento": "Jalapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 131,
-        "departamento": "Jalapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 132,
-        "departamento": "Jalapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 133,
-        "departamento": "Jutiapa",
-        "tipo": "municipio"
-    },
-    {
-        "id": 134,
-        "departamento": "Jutiapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 135,
-        "departamento": "Jutiapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 136,
-        "departamento": "Jutiapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 137,
-        "departamento": "Jutiapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 138,
-        "departamento": "Jutiapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 139,
-        "departamento": "Jutiapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 140,
-        "departamento": "Jutiapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 141,
-        "departamento": "Jutiapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 142,
-        "departamento": "Jutiapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 143,
-        "departamento": "Jutiapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 144,
-        "departamento": "Petén",
-        "tipo": "municipio"
-    },
-    {
-        "id": 145,
-        "departamento": "Petén",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 146,
-        "departamento": "Petén",
-        "tipo": "sucursal"
-    },
-    {
-        "id": 147,
-        "departamento": "Petén",
-        "tipo": "caserío"
-    },
-    {
-        "id": 148,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 149,
-        "departamento": "Petén",
-        "tipo": "caserío"
-    },
-    {
-        "id": 150,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 151,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 152,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 153,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 154,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 155,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 156,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 157,
-        "departamento": "Petén",
-        "tipo": "aldea"
-    },
-    {
-        "id": 158,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 159,
-        "departamento": "Petén",
-        "tipo": "cruce"
-    },
-    {
-        "id": 160,
-        "departamento": "Petén",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 161,
-        "departamento": "Quetzaltenango",
-        "tipo": "municipio"
-    },
-    {
-        "id": 162,
-        "departamento": "Quetzaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 163,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 164,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 165,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 166,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 167,
-        "departamento": "Quetzaltenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 168,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 169,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 170,
-        "departamento": "Quetzaltenango",
-        "tipo": "sucursal"
-    },
-    {
-        "id": 171,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 172,
-        "departamento": "Quiché",
-        "tipo": "municipio"
-    },
-    {
-        "id": 173,
-        "departamento": "Quiché",
-        "tipo": "caserío"
-    },
-    {
-        "id": 174,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 175,
-        "departamento": "Quiché",
-        "tipo": "aldea"
-    },
-    {
-        "id": 176,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 177,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 178,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 179,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 180,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 181,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 182,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 183,
-        "departamento": "Quiché",
-        "tipo": "caserío"
-    },
-    {
-        "id": 184,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 185,
-        "departamento": "Quiché",
-        "tipo": "cruce"
-    },
-    {
-        "id": 186,
-        "departamento": "Quiché",
-        "tipo": "aldea"
-    },
-    {
-        "id": 187,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 188,
-        "departamento": "Retalhuleu",
-        "tipo": "municipio"
-    },
-    {
-        "id": 189,
-        "departamento": "Retalhuleu",
-        "tipo": "cruce"
-    },
-    {
-        "id": 190,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 191,
-        "departamento": "Retalhuleu",
-        "tipo": "cruce"
-    },
-    {
-        "id": 192,
-        "departamento": "Retalhuleu",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 193,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 194,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 195,
-        "departamento": "Retalhuleu",
-        "tipo": "aldea"
-    },
-    {
-        "id": 196,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 197,
-        "departamento": "Retalhuleu",
-        "tipo": "colonia"
-    },
-    {
-        "id": 198,
-        "departamento": "Retalhuleu",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 199,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 200,
-        "departamento": "Sacatepéquez",
-        "tipo": "municipio"
-    },
-    {
-        "id": 201,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 202,
-        "departamento": "Sacatepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 203,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 204,
-        "departamento": "Sacatepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 205,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 206,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 207,
-        "departamento": "Sacatepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 208,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 209,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 210,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 211,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 212,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 213,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 214,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 215,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 216,
-        "departamento": "San Marcos",
-        "tipo": "municipio"
-    },
-    {
-        "id": 217,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 218,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 219,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 220,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 221,
-        "departamento": "San Marcos",
-        "tipo": "cruce"
-    },
-    {
-        "id": 222,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 223,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 224,
-        "departamento": "San Marcos",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 225,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 226,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 227,
-        "departamento": "Santa Rosa",
-        "tipo": "municipio"
-    },
-    {
-        "id": 228,
-        "departamento": "Santa Rosa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 229,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 230,
-        "departamento": "Santa Rosa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 231,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 232,
-        "departamento": "Santa Rosa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 233,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 234,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 235,
-        "departamento": "Santa Rosa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 236,
-        "departamento": "Santa Rosa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 237,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 238,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 239,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 240,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 241,
-        "departamento": "Sololá",
-        "tipo": "municipio"
-    },
-    {
-        "id": 242,
-        "departamento": "Sololá",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 243,
-        "departamento": "Sololá",
-        "tipo": "cruce"
-    },
-    {
-        "id": 244,
-        "departamento": "Sololá",
-        "tipo": "aldea"
-    },
-    {
-        "id": 245,
-        "departamento": "Sololá",
-        "tipo": "colonia"
-    },
-    {
-        "id": 246,
-        "departamento": "Sololá",
-        "tipo": "colonia"
-    },
-    {
-        "id": 247,
-        "departamento": "Sololá",
-        "tipo": "aldea"
-    },
-    {
-        "id": 248,
-        "departamento": "Sololá",
-        "tipo": "cruce"
-    },
-    {
-        "id": 249,
-        "departamento": "Sololá",
-        "tipo": "colonia"
-    },
-    {
-        "id": 250,
-        "departamento": "Sololá",
-        "tipo": "colonia"
-    },
-    {
-        "id": 251,
-        "departamento": "Sololá",
-        "tipo": "colonia"
-    },
-    {
-        "id": 252,
-        "departamento": "Suchitepéquez",
-        "tipo": "municipio"
-    },
-    {
-        "id": 253,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 254,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 255,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 256,
-        "departamento": "Suchitepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 257,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 258,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 259,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 260,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 261,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 262,
-        "departamento": "Suchitepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 263,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 264,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 265,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 266,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 267,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 268,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 269,
-        "departamento": "Totonicapán",
-        "tipo": "municipio"
-    },
-    {
-        "id": 270,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 271,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 272,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 273,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 274,
-        "departamento": "Totonicapán",
-        "tipo": "colonia"
-    },
-    {
-        "id": 275,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 276,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 277,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 278,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 279,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 280,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 281,
-        "departamento": "Totonicapán",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 282,
-        "departamento": "Totonicapán",
-        "tipo": "colonia"
-    },
-    {
-        "id": 283,
-        "departamento": "Totonicapán",
-        "tipo": "aldea"
-    },
-    {
-        "id": 284,
-        "departamento": "Totonicapán",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 285,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 286,
-        "departamento": "Zacapa",
-        "tipo": "municipio"
-    },
-    {
-        "id": 287,
-        "departamento": "Zacapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 288,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 289,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 290,
-        "departamento": "Zacapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 291,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 292,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 293,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 294,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 295,
-        "departamento": "Zacapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 296,
-        "departamento": "Zacapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 297,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 298,
-        "departamento": "Zacapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 299,
-        "departamento": "Zacapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 300,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 301,
-        "departamento": "Zacapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 302,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 303,
-        "departamento": "Alta Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 304,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 305,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 306,
-        "departamento": "Jutiapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 307,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 308,
-        "departamento": "Baja Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 309,
-        "departamento": "El Progreso",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 310,
-        "departamento": "Escuintla",
-        "tipo": "sucursal"
-    },
-    {
-        "id": 311,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 312,
-        "departamento": "Alta Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 313,
-        "departamento": "Alta Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 314,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 315,
-        "departamento": "Sacatepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 316,
-        "departamento": "Sololá",
-        "tipo": "cruce"
-    },
-    {
-        "id": 317,
-        "departamento": "Alta Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 318,
-        "departamento": "Baja Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 319,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 320,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 321,
-        "departamento": "Baja Verapaz",
-        "tipo": "aldea"
-    },
-    {
-        "id": 322,
-        "departamento": "Quetzaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 323,
-        "departamento": "Totonicapán",
-        "tipo": "aldea"
-    },
-    {
-        "id": 324,
-        "departamento": "San Marcos",
-        "tipo": "cruce"
-    },
-    {
-        "id": 325,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 326,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 327,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 328,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 329,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 330,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 331,
-        "departamento": "Huehuetenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 332,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 333,
-        "departamento": "Retalhuleu",
-        "tipo": "aldea"
-    },
-    {
-        "id": 334,
-        "departamento": "Escuintla",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 335,
-        "departamento": "San Marcos",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 336,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 337,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 338,
-        "departamento": "Suchitepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 339,
-        "departamento": "Sacatepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 340,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 341,
-        "departamento": "Guatemala",
-        "tipo": "colonia"
-    },
-    {
-        "id": 342,
-        "departamento": "Quetzaltenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 343,
-        "departamento": "San Marcos",
-        "tipo": "aldea"
-    },
-    {
-        "id": 344,
-        "departamento": "Baja Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 345,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 346,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 347,
-        "departamento": "Baja Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 348,
-        "departamento": "Sololá",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 349,
-        "departamento": "Chimaltenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 350,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 351,
-        "departamento": "Baja Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 352,
-        "departamento": "Jalapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 353,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 354,
-        "departamento": "Quiché",
-        "tipo": "aldea"
-    },
-    {
-        "id": 355,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 356,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 357,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 358,
-        "departamento": "Chimaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 359,
-        "departamento": "Sacatepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 360,
-        "departamento": "Guatemala",
-        "tipo": "aldea"
-    },
-    {
-        "id": 361,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 362,
-        "departamento": "Sacatepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 363,
-        "departamento": "Suchitepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 364,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 365,
-        "departamento": "Huehuetenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 366,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 367,
-        "departamento": "Escuintla",
-        "tipo": "caserío"
-    },
-    {
-        "id": 368,
-        "departamento": "Guatemala",
-        "tipo": "caserío"
-    },
-    {
-        "id": 369,
-        "departamento": "Totonicapán",
-        "tipo": "aldea"
-    },
-    {
-        "id": 370,
-        "departamento": "Alta Verapaz",
-        "tipo": "caserío"
-    },
-    {
-        "id": 371,
-        "departamento": "Zacapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 372,
-        "departamento": "Jutiapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 373,
-        "departamento": "Sacatepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 374,
-        "departamento": "Sacatepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 375,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 376,
-        "departamento": "San Marcos",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 377,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 378,
-        "departamento": "Baja Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 379,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 380,
-        "departamento": "Quetzaltenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 381,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 382,
-        "departamento": "Huehuetenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 383,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 384,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 385,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 386,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 387,
-        "departamento": "Santa Rosa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 388,
-        "departamento": "El Progreso",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 389,
-        "departamento": "Jutiapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 390,
-        "departamento": "Chimaltenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 391,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 392,
-        "departamento": "Retalhuleu",
-        "tipo": "cruce"
-    },
-    {
-        "id": 393,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 394,
-        "departamento": "Escuintla",
-        "tipo": "cruce"
-    },
-    {
-        "id": 395,
-        "departamento": "Huehuetenango",
-        "tipo": "cruce"
-    },
-    {
-        "id": 396,
-        "departamento": "Retalhuleu",
-        "tipo": "cruce"
-    },
-    {
-        "id": 397,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 398,
-        "departamento": "Baja Verapaz",
-        "tipo": "colonia"
-    },
-    {
-        "id": 399,
-        "departamento": "Chiquimula",
-        "tipo": "cruce"
-    },
-    {
-        "id": 400,
-        "departamento": "Zacapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 401,
-        "departamento": "Chiquimula",
-        "tipo": "caserío"
-    },
-    {
-        "id": 402,
-        "departamento": "Zacapa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 403,
-        "departamento": "Retalhuleu",
-        "tipo": "caserío"
-    },
-    {
-        "id": 404,
-        "departamento": "Petén",
-        "tipo": "caserío"
-    },
-    {
-        "id": 405,
-        "departamento": "Jutiapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 406,
-        "departamento": "Chimaltenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 407,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 408,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 409,
-        "departamento": "Huehuetenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 410,
-        "departamento": "Quiché",
-        "tipo": "cruce"
-    },
-    {
-        "id": 411,
-        "departamento": "Quetzaltenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 412,
-        "departamento": "Sololá",
-        "tipo": "aldea"
-    },
-    {
-        "id": 413,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 414,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 415,
-        "departamento": "Petén",
-        "tipo": "aldea"
-    },
-    {
-        "id": 416,
-        "departamento": "Sacatepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 417,
-        "departamento": "Guatemala",
-        "tipo": "aldea"
-    },
-    {
-        "id": 418,
-        "departamento": "Jutiapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 419,
-        "departamento": "Quiché",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 420,
-        "departamento": "Baja Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 421,
-        "departamento": "Totonicapán",
-        "tipo": "colonia"
-    },
-    {
-        "id": 422,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 423,
-        "departamento": "Izabal",
-        "tipo": "cruce"
-    },
-    {
-        "id": 424,
-        "departamento": "Jutiapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 425,
-        "departamento": "Jalapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 426,
-        "departamento": "Jutiapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 427,
-        "departamento": "Jalapa",
-        "tipo": "caserío"
-    },
-    {
-        "id": 428,
-        "departamento": "Quiché",
-        "tipo": "colonia"
-    },
-    {
-        "id": 429,
-        "departamento": "Guatemala",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 430,
-        "departamento": "Petén",
-        "tipo": "colonia"
-    },
-    {
-        "id": 431,
-        "departamento": "Alta Verapaz",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 432,
-        "departamento": "Huehuetenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 433,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 434,
-        "departamento": "Petén",
-        "tipo": "caserío"
-    },
-    {
-        "id": 435,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 436,
-        "departamento": "Sololá",
-        "tipo": "caserío"
-    },
-    {
-        "id": 437,
-        "departamento": "San Marcos",
-        "tipo": "cruce"
-    },
-    {
-        "id": 438,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 439,
-        "departamento": "Chiquimula",
-        "tipo": "aldea"
-    },
-    {
-        "id": 440,
-        "departamento": "Huehuetenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 441,
-        "departamento": "Totonicapán",
-        "tipo": "cruce"
-    },
-    {
-        "id": 442,
-        "departamento": "Sololá",
-        "tipo": "caserío"
-    },
-    {
-        "id": 443,
-        "departamento": "San Marcos",
-        "tipo": "colonia"
-    },
-    {
-        "id": 444,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 445,
-        "departamento": "Totonicapán",
-        "tipo": "colonia"
-    },
-    {
-        "id": 446,
-        "departamento": "Huehuetenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 447,
-        "departamento": "Alta Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 448,
-        "departamento": "Alta Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 449,
-        "departamento": "Izabal",
-        "tipo": "cruce"
-    },
-    {
-        "id": 450,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 451,
-        "departamento": "Escuintla",
-        "tipo": "colonia"
-    },
-    {
-        "id": 452,
-        "departamento": "Zacapa",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 453,
-        "departamento": "Sololá",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 454,
-        "departamento": "Suchitepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 455,
-        "departamento": "San Marcos",
-        "tipo": "caserío"
-    },
-    {
-        "id": 456,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 457,
-        "departamento": "Retalhuleu",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 458,
-        "departamento": "Suchitepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 459,
-        "departamento": "Jutiapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 460,
-        "departamento": "Totonicapán",
-        "tipo": "caserío"
-    },
-    {
-        "id": 461,
-        "departamento": "Chimaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 462,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 463,
-        "departamento": "Quetzaltenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 464,
-        "departamento": "Izabal",
-        "tipo": "aldea"
-    },
-    {
-        "id": 465,
-        "departamento": "Quetzaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 466,
-        "departamento": "Chimaltenango",
-        "tipo": "caserío"
-    },
-    {
-        "id": 467,
-        "departamento": "Chiquimula",
-        "tipo": "colonia"
-    },
-    {
-        "id": 468,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 469,
-        "departamento": "Quiché",
-        "tipo": "caserío"
-    },
-    {
-        "id": 470,
-        "departamento": "Escuintla",
-        "tipo": "aldea"
-    },
-    {
-        "id": 471,
-        "departamento": "Izabal",
-        "tipo": "caserío"
-    },
-    {
-        "id": 472,
-        "departamento": "Santa Rosa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 473,
-        "departamento": "Suchitepéquez",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 474,
-        "departamento": "Guatemala",
-        "tipo": "caserío"
-    },
-    {
-        "id": 475,
-        "departamento": "Huehuetenango",
-        "tipo": "colonia"
-    },
-    {
-        "id": 476,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 477,
-        "departamento": "Santa Rosa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 478,
-        "departamento": "Guatemala",
-        "tipo": "cruce"
-    },
-    {
-        "id": 479,
-        "departamento": "Chimaltenango",
-        "tipo": "aldea"
-    },
-    {
-        "id": 480,
-        "departamento": "Suchitepéquez",
-        "tipo": "aldea"
-    },
-    {
-        "id": 481,
-        "departamento": "El Progreso",
-        "tipo": "colonia"
-    },
-    {
-        "id": 482,
-        "departamento": "Escuintla",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 483,
-        "departamento": "Jalapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 484,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 485,
-        "departamento": "Chiquimula",
-        "tipo": "colonia"
-    },
-    {
-        "id": 486,
-        "departamento": "Santa Rosa",
-        "tipo": "colonia"
-    },
-    {
-        "id": 487,
-        "departamento": "Zacapa",
-        "tipo": "cruce"
-    },
-    {
-        "id": 488,
-        "departamento": "San Marcos",
-        "tipo": "cruce"
-    },
-    {
-        "id": 489,
-        "departamento": "Sacatepéquez",
-        "tipo": "caserío"
-    },
-    {
-        "id": 490,
-        "departamento": "Zacapa",
-        "tipo": "aldea"
-    },
-    {
-        "id": 491,
-        "departamento": "Chiquimula",
-        "tipo": "aldea"
-    },
-    {
-        "id": 492,
-        "departamento": "Huehuetenango",
-        "tipo": "zona urbana"
-    },
-    {
-        "id": 493,
-        "departamento": "Sololá",
-        "tipo": "cruce"
-    },
-    {
-        "id": 494,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    },
-    {
-        "id": 495,
-        "departamento": "Quiché",
-        "tipo": "caserío"
-    },
-    {
-        "id": 496,
-        "departamento": "Totonicapán",
-        "tipo": "aldea"
-    },
-    {
-        "id": 497,
-        "departamento": "Baja Verapaz",
-        "tipo": "cruce"
-    },
-    {
-        "id": 498,
-        "departamento": "Suchitepéquez",
-        "tipo": "colonia"
-    },
-    {
-        "id": 499,
-        "departamento": "Suchitepéquez",
-        "tipo": "cruce"
-    }
+  {
+    "id": 0,
+    "departamento": "Alta Verapaz",
+    "tipo": "municipio"
+  },
+  {
+    "id": 1,
+    "departamento": "Alta Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 2,
+    "departamento": "Alta Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 3,
+    "departamento": "Alta Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 4,
+    "departamento": "Alta Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 5,
+    "departamento": "Alta Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 6,
+    "departamento": "Alta Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 7,
+    "departamento": "Alta Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 8,
+    "departamento": "Alta Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 9,
+    "departamento": "Alta Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 10,
+    "departamento": "Baja Verapaz",
+    "tipo": "municipio"
+  },
+  {
+    "id": 11,
+    "departamento": "Baja Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 12,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 13,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 14,
+    "departamento": "Baja Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 15,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 16,
+    "departamento": "Baja Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 17,
+    "departamento": "Baja Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 18,
+    "departamento": "Baja Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 19,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 20,
+    "departamento": "Baja Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 21,
+    "departamento": "Baja Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 22,
+    "departamento": "Baja Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 23,
+    "departamento": "Chimaltenango",
+    "tipo": "municipio"
+  },
+  {
+    "id": 24,
+    "departamento": "Chimaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 25,
+    "departamento": "Chimaltenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 26,
+    "departamento": "Chimaltenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 27,
+    "departamento": "Chimaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 28,
+    "departamento": "Chimaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 29,
+    "departamento": "Chimaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 30,
+    "departamento": "Chimaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 31,
+    "departamento": "Chimaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 32,
+    "departamento": "Chimaltenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 33,
+    "departamento": "Chiquimula",
+    "tipo": "municipio"
+  },
+  {
+    "id": 34,
+    "departamento": "Chiquimula",
+    "tipo": "caserío"
+  },
+  {
+    "id": 35,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 36,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 37,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 38,
+    "departamento": "Chiquimula",
+    "tipo": "aldea"
+  },
+  {
+    "id": 39,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 40,
+    "departamento": "Chiquimula",
+    "tipo": "caserío"
+  },
+  {
+    "id": 41,
+    "departamento": "Chiquimula",
+    "tipo": "colonia"
+  },
+  {
+    "id": 42,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 43,
+    "departamento": "Chiquimula",
+    "tipo": "colonia"
+  },
+  {
+    "id": 44,
+    "departamento": "Chiquimula",
+    "tipo": "caserío"
+  },
+  {
+    "id": 45,
+    "departamento": "Chiquimula",
+    "tipo": "colonia"
+  },
+  {
+    "id": 46,
+    "departamento": "Chiquimula",
+    "tipo": "caserío"
+  },
+  {
+    "id": 47,
+    "departamento": "El Progreso",
+    "tipo": "municipio"
+  },
+  {
+    "id": 48,
+    "departamento": "El Progreso",
+    "tipo": "cruce"
+  },
+  {
+    "id": 49,
+    "departamento": "El Progreso",
+    "tipo": "caserío"
+  },
+  {
+    "id": 50,
+    "departamento": "El Progreso",
+    "tipo": "caserío"
+  },
+  {
+    "id": 51,
+    "departamento": "El Progreso",
+    "tipo": "cruce"
+  },
+  {
+    "id": 52,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 53,
+    "departamento": "El Progreso",
+    "tipo": "caserío"
+  },
+  {
+    "id": 54,
+    "departamento": "El Progreso",
+    "tipo": "aldea"
+  },
+  {
+    "id": 55,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 56,
+    "departamento": "El Progreso",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 57,
+    "departamento": "El Progreso",
+    "tipo": "caserío"
+  },
+  {
+    "id": 58,
+    "departamento": "El Progreso",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 59,
+    "departamento": "El Progreso",
+    "tipo": "caserío"
+  },
+  {
+    "id": 60,
+    "departamento": "Escuintla",
+    "tipo": "municipio"
+  },
+  {
+    "id": 61,
+    "departamento": "Escuintla",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 62,
+    "departamento": "Escuintla",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 63,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 64,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 65,
+    "departamento": "Escuintla",
+    "tipo": "cruce"
+  },
+  {
+    "id": 66,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 67,
+    "departamento": "Escuintla",
+    "tipo": "caserío"
+  },
+  {
+    "id": 68,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 69,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 70,
+    "departamento": "Guatemala",
+    "tipo": "municipio"
+  },
+  {
+    "id": 71,
+    "departamento": "Guatemala",
+    "tipo": "sucursal central"
+  },
+  {
+    "id": 72,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 73,
+    "departamento": "Guatemala",
+    "tipo": "aldea"
+  },
+  {
+    "id": 74,
+    "departamento": "Guatemala",
+    "tipo": "aldea"
+  },
+  {
+    "id": 75,
+    "departamento": "Guatemala",
+    "tipo": "colonia"
+  },
+  {
+    "id": 76,
+    "departamento": "Guatemala",
+    "tipo": "colonia"
+  },
+  {
+    "id": 77,
+    "departamento": "Guatemala",
+    "tipo": "colonia"
+  },
+  {
+    "id": 78,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 79,
+    "departamento": "Guatemala",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 80,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 81,
+    "departamento": "Guatemala",
+    "tipo": "colonia"
+  },
+  {
+    "id": 82,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 83,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 84,
+    "departamento": "Huehuetenango",
+    "tipo": "municipio"
+  },
+  {
+    "id": 85,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 86,
+    "departamento": "Huehuetenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 87,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 88,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 89,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 90,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 91,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 92,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 93,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 94,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 95,
+    "departamento": "Huehuetenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 96,
+    "departamento": "Huehuetenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 97,
+    "departamento": "Huehuetenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 98,
+    "departamento": "Huehuetenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 99,
+    "departamento": "Izabal",
+    "tipo": "municipio"
+  },
+  {
+    "id": 100,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 101,
+    "departamento": "Izabal",
+    "tipo": "colonia"
+  },
+  {
+    "id": 102,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 103,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 104,
+    "departamento": "Izabal",
+    "tipo": "colonia"
+  },
+  {
+    "id": 105,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 106,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 107,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 108,
+    "departamento": "Izabal",
+    "tipo": "colonia"
+  },
+  {
+    "id": 109,
+    "departamento": "Izabal",
+    "tipo": "colonia"
+  },
+  {
+    "id": 110,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 111,
+    "departamento": "Izabal",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 112,
+    "departamento": "Izabal",
+    "tipo": "cruce"
+  },
+  {
+    "id": 113,
+    "departamento": "Izabal",
+    "tipo": "colonia"
+  },
+  {
+    "id": 114,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 115,
+    "departamento": "Jalapa",
+    "tipo": "municipio"
+  },
+  {
+    "id": 116,
+    "departamento": "Jalapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 117,
+    "departamento": "Jalapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 118,
+    "departamento": "Jalapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 119,
+    "departamento": "Jalapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 120,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 121,
+    "departamento": "Jalapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 122,
+    "departamento": "Jalapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 123,
+    "departamento": "Jalapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 124,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 125,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 126,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 127,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 128,
+    "departamento": "Jalapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 129,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 130,
+    "departamento": "Jalapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 131,
+    "departamento": "Jalapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 132,
+    "departamento": "Jalapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 133,
+    "departamento": "Jutiapa",
+    "tipo": "municipio"
+  },
+  {
+    "id": 134,
+    "departamento": "Jutiapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 135,
+    "departamento": "Jutiapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 136,
+    "departamento": "Jutiapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 137,
+    "departamento": "Jutiapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 138,
+    "departamento": "Jutiapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 139,
+    "departamento": "Jutiapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 140,
+    "departamento": "Jutiapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 141,
+    "departamento": "Jutiapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 142,
+    "departamento": "Jutiapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 143,
+    "departamento": "Jutiapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 144,
+    "departamento": "Petén",
+    "tipo": "municipio"
+  },
+  {
+    "id": 145,
+    "departamento": "Petén",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 146,
+    "departamento": "Petén",
+    "tipo": "sucursal"
+  },
+  {
+    "id": 147,
+    "departamento": "Petén",
+    "tipo": "caserío"
+  },
+  {
+    "id": 148,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 149,
+    "departamento": "Petén",
+    "tipo": "caserío"
+  },
+  {
+    "id": 150,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 151,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 152,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 153,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 154,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 155,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 156,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 157,
+    "departamento": "Petén",
+    "tipo": "aldea"
+  },
+  {
+    "id": 158,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 159,
+    "departamento": "Petén",
+    "tipo": "cruce"
+  },
+  {
+    "id": 160,
+    "departamento": "Petén",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 161,
+    "departamento": "Quetzaltenango",
+    "tipo": "municipio"
+  },
+  {
+    "id": 162,
+    "departamento": "Quetzaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 163,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 164,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 165,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 166,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 167,
+    "departamento": "Quetzaltenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 168,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 169,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 170,
+    "departamento": "Quetzaltenango",
+    "tipo": "sucursal"
+  },
+  {
+    "id": 171,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 172,
+    "departamento": "Quiché",
+    "tipo": "municipio"
+  },
+  {
+    "id": 173,
+    "departamento": "Quiché",
+    "tipo": "caserío"
+  },
+  {
+    "id": 174,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 175,
+    "departamento": "Quiché",
+    "tipo": "aldea"
+  },
+  {
+    "id": 176,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 177,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 178,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 179,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 180,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 181,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 182,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 183,
+    "departamento": "Quiché",
+    "tipo": "caserío"
+  },
+  {
+    "id": 184,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 185,
+    "departamento": "Quiché",
+    "tipo": "cruce"
+  },
+  {
+    "id": 186,
+    "departamento": "Quiché",
+    "tipo": "aldea"
+  },
+  {
+    "id": 187,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 188,
+    "departamento": "Retalhuleu",
+    "tipo": "municipio"
+  },
+  {
+    "id": 189,
+    "departamento": "Retalhuleu",
+    "tipo": "cruce"
+  },
+  {
+    "id": 190,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 191,
+    "departamento": "Retalhuleu",
+    "tipo": "cruce"
+  },
+  {
+    "id": 192,
+    "departamento": "Retalhuleu",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 193,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 194,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 195,
+    "departamento": "Retalhuleu",
+    "tipo": "aldea"
+  },
+  {
+    "id": 196,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 197,
+    "departamento": "Retalhuleu",
+    "tipo": "colonia"
+  },
+  {
+    "id": 198,
+    "departamento": "Retalhuleu",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 199,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 200,
+    "departamento": "Sacatepéquez",
+    "tipo": "municipio"
+  },
+  {
+    "id": 201,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 202,
+    "departamento": "Sacatepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 203,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 204,
+    "departamento": "Sacatepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 205,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 206,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 207,
+    "departamento": "Sacatepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 208,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 209,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 210,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 211,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 212,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 213,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 214,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 215,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 216,
+    "departamento": "San Marcos",
+    "tipo": "municipio"
+  },
+  {
+    "id": 217,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 218,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 219,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 220,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 221,
+    "departamento": "San Marcos",
+    "tipo": "cruce"
+  },
+  {
+    "id": 222,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 223,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 224,
+    "departamento": "San Marcos",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 225,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 226,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 227,
+    "departamento": "Santa Rosa",
+    "tipo": "municipio"
+  },
+  {
+    "id": 228,
+    "departamento": "Santa Rosa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 229,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 230,
+    "departamento": "Santa Rosa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 231,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 232,
+    "departamento": "Santa Rosa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 233,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 234,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 235,
+    "departamento": "Santa Rosa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 236,
+    "departamento": "Santa Rosa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 237,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 238,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 239,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 240,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 241,
+    "departamento": "Sololá",
+    "tipo": "municipio"
+  },
+  {
+    "id": 242,
+    "departamento": "Sololá",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 243,
+    "departamento": "Sololá",
+    "tipo": "cruce"
+  },
+  {
+    "id": 244,
+    "departamento": "Sololá",
+    "tipo": "aldea"
+  },
+  {
+    "id": 245,
+    "departamento": "Sololá",
+    "tipo": "colonia"
+  },
+  {
+    "id": 246,
+    "departamento": "Sololá",
+    "tipo": "colonia"
+  },
+  {
+    "id": 247,
+    "departamento": "Sololá",
+    "tipo": "aldea"
+  },
+  {
+    "id": 248,
+    "departamento": "Sololá",
+    "tipo": "cruce"
+  },
+  {
+    "id": 249,
+    "departamento": "Sololá",
+    "tipo": "colonia"
+  },
+  {
+    "id": 250,
+    "departamento": "Sololá",
+    "tipo": "colonia"
+  },
+  {
+    "id": 251,
+    "departamento": "Sololá",
+    "tipo": "colonia"
+  },
+  {
+    "id": 252,
+    "departamento": "Suchitepéquez",
+    "tipo": "municipio"
+  },
+  {
+    "id": 253,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 254,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 255,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 256,
+    "departamento": "Suchitepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 257,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 258,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 259,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 260,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 261,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 262,
+    "departamento": "Suchitepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 263,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 264,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 265,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 266,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 267,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 268,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 269,
+    "departamento": "Totonicapán",
+    "tipo": "municipio"
+  },
+  {
+    "id": 270,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 271,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 272,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 273,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 274,
+    "departamento": "Totonicapán",
+    "tipo": "colonia"
+  },
+  {
+    "id": 275,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 276,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 277,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 278,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 279,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 280,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 281,
+    "departamento": "Totonicapán",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 282,
+    "departamento": "Totonicapán",
+    "tipo": "colonia"
+  },
+  {
+    "id": 283,
+    "departamento": "Totonicapán",
+    "tipo": "aldea"
+  },
+  {
+    "id": 284,
+    "departamento": "Totonicapán",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 285,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 286,
+    "departamento": "Zacapa",
+    "tipo": "municipio"
+  },
+  {
+    "id": 287,
+    "departamento": "Zacapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 288,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 289,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 290,
+    "departamento": "Zacapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 291,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 292,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 293,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 294,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 295,
+    "departamento": "Zacapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 296,
+    "departamento": "Zacapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 297,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 298,
+    "departamento": "Zacapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 299,
+    "departamento": "Zacapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 300,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 301,
+    "departamento": "Zacapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 302,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 303,
+    "departamento": "Alta Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 304,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 305,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 306,
+    "departamento": "Jutiapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 307,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 308,
+    "departamento": "Baja Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 309,
+    "departamento": "El Progreso",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 310,
+    "departamento": "Escuintla",
+    "tipo": "sucursal"
+  },
+  {
+    "id": 311,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 312,
+    "departamento": "Alta Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 313,
+    "departamento": "Alta Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 314,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 315,
+    "departamento": "Sacatepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 316,
+    "departamento": "Sololá",
+    "tipo": "cruce"
+  },
+  {
+    "id": 317,
+    "departamento": "Alta Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 318,
+    "departamento": "Baja Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 319,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 320,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 321,
+    "departamento": "Baja Verapaz",
+    "tipo": "aldea"
+  },
+  {
+    "id": 322,
+    "departamento": "Quetzaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 323,
+    "departamento": "Totonicapán",
+    "tipo": "aldea"
+  },
+  {
+    "id": 324,
+    "departamento": "San Marcos",
+    "tipo": "cruce"
+  },
+  {
+    "id": 325,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 326,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 327,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 328,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 329,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 330,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 331,
+    "departamento": "Huehuetenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 332,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 333,
+    "departamento": "Retalhuleu",
+    "tipo": "aldea"
+  },
+  {
+    "id": 334,
+    "departamento": "Escuintla",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 335,
+    "departamento": "San Marcos",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 336,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 337,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 338,
+    "departamento": "Suchitepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 339,
+    "departamento": "Sacatepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 340,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 341,
+    "departamento": "Guatemala",
+    "tipo": "colonia"
+  },
+  {
+    "id": 342,
+    "departamento": "Quetzaltenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 343,
+    "departamento": "San Marcos",
+    "tipo": "aldea"
+  },
+  {
+    "id": 344,
+    "departamento": "Baja Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 345,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 346,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 347,
+    "departamento": "Baja Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 348,
+    "departamento": "Sololá",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 349,
+    "departamento": "Chimaltenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 350,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 351,
+    "departamento": "Baja Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 352,
+    "departamento": "Jalapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 353,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 354,
+    "departamento": "Quiché",
+    "tipo": "aldea"
+  },
+  {
+    "id": 355,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 356,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 357,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 358,
+    "departamento": "Chimaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 359,
+    "departamento": "Sacatepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 360,
+    "departamento": "Guatemala",
+    "tipo": "aldea"
+  },
+  {
+    "id": 361,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 362,
+    "departamento": "Sacatepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 363,
+    "departamento": "Suchitepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 364,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 365,
+    "departamento": "Huehuetenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 366,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 367,
+    "departamento": "Escuintla",
+    "tipo": "caserío"
+  },
+  {
+    "id": 368,
+    "departamento": "Guatemala",
+    "tipo": "caserío"
+  },
+  {
+    "id": 369,
+    "departamento": "Totonicapán",
+    "tipo": "aldea"
+  },
+  {
+    "id": 370,
+    "departamento": "Alta Verapaz",
+    "tipo": "caserío"
+  },
+  {
+    "id": 371,
+    "departamento": "Zacapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 372,
+    "departamento": "Jutiapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 373,
+    "departamento": "Sacatepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 374,
+    "departamento": "Sacatepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 375,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 376,
+    "departamento": "San Marcos",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 377,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 378,
+    "departamento": "Baja Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 379,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 380,
+    "departamento": "Quetzaltenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 381,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 382,
+    "departamento": "Huehuetenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 383,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 384,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 385,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 386,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 387,
+    "departamento": "Santa Rosa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 388,
+    "departamento": "El Progreso",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 389,
+    "departamento": "Jutiapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 390,
+    "departamento": "Chimaltenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 391,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 392,
+    "departamento": "Retalhuleu",
+    "tipo": "cruce"
+  },
+  {
+    "id": 393,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 394,
+    "departamento": "Escuintla",
+    "tipo": "cruce"
+  },
+  {
+    "id": 395,
+    "departamento": "Huehuetenango",
+    "tipo": "cruce"
+  },
+  {
+    "id": 396,
+    "departamento": "Retalhuleu",
+    "tipo": "cruce"
+  },
+  {
+    "id": 397,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 398,
+    "departamento": "Baja Verapaz",
+    "tipo": "colonia"
+  },
+  {
+    "id": 399,
+    "departamento": "Chiquimula",
+    "tipo": "cruce"
+  },
+  {
+    "id": 400,
+    "departamento": "Zacapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 401,
+    "departamento": "Chiquimula",
+    "tipo": "caserío"
+  },
+  {
+    "id": 402,
+    "departamento": "Zacapa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 403,
+    "departamento": "Retalhuleu",
+    "tipo": "caserío"
+  },
+  {
+    "id": 404,
+    "departamento": "Petén",
+    "tipo": "caserío"
+  },
+  {
+    "id": 405,
+    "departamento": "Jutiapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 406,
+    "departamento": "Chimaltenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 407,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 408,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 409,
+    "departamento": "Huehuetenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 410,
+    "departamento": "Quiché",
+    "tipo": "cruce"
+  },
+  {
+    "id": 411,
+    "departamento": "Quetzaltenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 412,
+    "departamento": "Sololá",
+    "tipo": "aldea"
+  },
+  {
+    "id": 413,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 414,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 415,
+    "departamento": "Petén",
+    "tipo": "aldea"
+  },
+  {
+    "id": 416,
+    "departamento": "Sacatepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 417,
+    "departamento": "Guatemala",
+    "tipo": "aldea"
+  },
+  {
+    "id": 418,
+    "departamento": "Jutiapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 419,
+    "departamento": "Quiché",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 420,
+    "departamento": "Baja Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 421,
+    "departamento": "Totonicapán",
+    "tipo": "colonia"
+  },
+  {
+    "id": 422,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 423,
+    "departamento": "Izabal",
+    "tipo": "cruce"
+  },
+  {
+    "id": 424,
+    "departamento": "Jutiapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 425,
+    "departamento": "Jalapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 426,
+    "departamento": "Jutiapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 427,
+    "departamento": "Jalapa",
+    "tipo": "caserío"
+  },
+  {
+    "id": 428,
+    "departamento": "Quiché",
+    "tipo": "colonia"
+  },
+  {
+    "id": 429,
+    "departamento": "Guatemala",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 430,
+    "departamento": "Petén",
+    "tipo": "colonia"
+  },
+  {
+    "id": 431,
+    "departamento": "Alta Verapaz",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 432,
+    "departamento": "Huehuetenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 433,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 434,
+    "departamento": "Petén",
+    "tipo": "caserío"
+  },
+  {
+    "id": 435,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 436,
+    "departamento": "Sololá",
+    "tipo": "caserío"
+  },
+  {
+    "id": 437,
+    "departamento": "San Marcos",
+    "tipo": "cruce"
+  },
+  {
+    "id": 438,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 439,
+    "departamento": "Chiquimula",
+    "tipo": "aldea"
+  },
+  {
+    "id": 440,
+    "departamento": "Huehuetenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 441,
+    "departamento": "Totonicapán",
+    "tipo": "cruce"
+  },
+  {
+    "id": 442,
+    "departamento": "Sololá",
+    "tipo": "caserío"
+  },
+  {
+    "id": 443,
+    "departamento": "San Marcos",
+    "tipo": "colonia"
+  },
+  {
+    "id": 444,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 445,
+    "departamento": "Totonicapán",
+    "tipo": "colonia"
+  },
+  {
+    "id": 446,
+    "departamento": "Huehuetenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 447,
+    "departamento": "Alta Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 448,
+    "departamento": "Alta Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 449,
+    "departamento": "Izabal",
+    "tipo": "cruce"
+  },
+  {
+    "id": 450,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 451,
+    "departamento": "Escuintla",
+    "tipo": "colonia"
+  },
+  {
+    "id": 452,
+    "departamento": "Zacapa",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 453,
+    "departamento": "Sololá",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 454,
+    "departamento": "Suchitepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 455,
+    "departamento": "San Marcos",
+    "tipo": "caserío"
+  },
+  {
+    "id": 456,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 457,
+    "departamento": "Retalhuleu",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 458,
+    "departamento": "Suchitepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 459,
+    "departamento": "Jutiapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 460,
+    "departamento": "Totonicapán",
+    "tipo": "caserío"
+  },
+  {
+    "id": 461,
+    "departamento": "Chimaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 462,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 463,
+    "departamento": "Quetzaltenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 464,
+    "departamento": "Izabal",
+    "tipo": "aldea"
+  },
+  {
+    "id": 465,
+    "departamento": "Quetzaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 466,
+    "departamento": "Chimaltenango",
+    "tipo": "caserío"
+  },
+  {
+    "id": 467,
+    "departamento": "Chiquimula",
+    "tipo": "colonia"
+  },
+  {
+    "id": 468,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 469,
+    "departamento": "Quiché",
+    "tipo": "caserío"
+  },
+  {
+    "id": 470,
+    "departamento": "Escuintla",
+    "tipo": "aldea"
+  },
+  {
+    "id": 471,
+    "departamento": "Izabal",
+    "tipo": "caserío"
+  },
+  {
+    "id": 472,
+    "departamento": "Santa Rosa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 473,
+    "departamento": "Suchitepéquez",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 474,
+    "departamento": "Guatemala",
+    "tipo": "caserío"
+  },
+  {
+    "id": 475,
+    "departamento": "Huehuetenango",
+    "tipo": "colonia"
+  },
+  {
+    "id": 476,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 477,
+    "departamento": "Santa Rosa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 478,
+    "departamento": "Guatemala",
+    "tipo": "cruce"
+  },
+  {
+    "id": 479,
+    "departamento": "Chimaltenango",
+    "tipo": "aldea"
+  },
+  {
+    "id": 480,
+    "departamento": "Suchitepéquez",
+    "tipo": "aldea"
+  },
+  {
+    "id": 481,
+    "departamento": "El Progreso",
+    "tipo": "colonia"
+  },
+  {
+    "id": 482,
+    "departamento": "Escuintla",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 483,
+    "departamento": "Jalapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 484,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 485,
+    "departamento": "Chiquimula",
+    "tipo": "colonia"
+  },
+  {
+    "id": 486,
+    "departamento": "Santa Rosa",
+    "tipo": "colonia"
+  },
+  {
+    "id": 487,
+    "departamento": "Zacapa",
+    "tipo": "cruce"
+  },
+  {
+    "id": 488,
+    "departamento": "San Marcos",
+    "tipo": "cruce"
+  },
+  {
+    "id": 489,
+    "departamento": "Sacatepéquez",
+    "tipo": "caserío"
+  },
+  {
+    "id": 490,
+    "departamento": "Zacapa",
+    "tipo": "aldea"
+  },
+  {
+    "id": 491,
+    "departamento": "Chiquimula",
+    "tipo": "aldea"
+  },
+  {
+    "id": 492,
+    "departamento": "Huehuetenango",
+    "tipo": "zona urbana"
+  },
+  {
+    "id": 493,
+    "departamento": "Sololá",
+    "tipo": "cruce"
+  },
+  {
+    "id": 494,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  },
+  {
+    "id": 495,
+    "departamento": "Quiché",
+    "tipo": "caserío"
+  },
+  {
+    "id": 496,
+    "departamento": "Totonicapán",
+    "tipo": "aldea"
+  },
+  {
+    "id": 497,
+    "departamento": "Baja Verapaz",
+    "tipo": "cruce"
+  },
+  {
+    "id": 498,
+    "departamento": "Suchitepéquez",
+    "tipo": "colonia"
+  },
+  {
+    "id": 499,
+    "departamento": "Suchitepéquez",
+    "tipo": "cruce"
+  }
 ]
