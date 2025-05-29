@@ -1,11 +1,12 @@
 using System.Dynamic;
+using Microsoft.VisualBasic;
 
 public static class Menu
 {
     private static ConsoleColor colorLetraActual = ConsoleColor.White;
     private static Dictionary<int, string> opciones = new Dictionary<int, string>();
 
-    private static void cargarOpciones()
+    public static void cargarOpciones()
     {
         opciones.Add(1, "Realizar pedido");
         opciones.Add(2, "Ver departamentos disponibles");
@@ -50,19 +51,17 @@ public static class Menu
     }
     public static void dibujarMenu()
     {
-        cargarAnimación();
         Console.Clear();
-        cargarOpciones();
         cambiarColor(ConsoleColor.Green);
         Console.WriteLine($"\t\tSistema de entrega de paquetería");
         cambiarColor();
         dibujarOpciones();
     }
 
-    public static int esperarRespuesta()
+    public static int esperarRespuesta(out int respuesta)
     {
         Console.Write(">> ");
-        int respuesta = Int32.Parse(Console.ReadLine() ?? "");
+        respuesta = Int32.Parse(Console.ReadLine() ?? "");
         return respuesta;
     }
     public static void cambiarColor(ConsoleColor? color = null)
