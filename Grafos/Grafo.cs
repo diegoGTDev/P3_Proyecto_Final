@@ -65,10 +65,10 @@ namespace Grafos
 
         private void AgregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, int cantidadMax)
         {
-            var usados = new HashSet<int>();
+            HashSet<int> usados = new HashSet<int>();
             for (int i = 0; i < cantidadMax && destinos.Count > 0; i++)
             {
-                var destino = destinos[rand.Next(destinos.Count)];
+                Vertice destino = destinos[rand.Next(destinos.Count)];
                 if (usados.Contains(destino.id)) continue;
 
                 usados.Add(destino.id);
