@@ -60,6 +60,13 @@ namespace Grafos
                     var vecinosDepto = vertices.FindAll(v => vecinos.Contains(v.departamento));
                     AgregarConexiones(v, vecinosDepto, rand, 2);
                 }
+
+                //Asegurarse de conectar la sucursal (si es que existe)
+                var sucursal = vertices.Find(v2 => v2.departamento == v.departamento && (v2.tipo == "sucursal" || v2.tipo == "sucursal central"));
+                if (sucursales != null)
+                {
+                    AgregarConexiones(v, sucursales, rand, 1);
+                }
             }
         }
 
@@ -148,7 +155,7 @@ namespace Grafos
             }
             Console.WriteLine();
         }
-        public void MostrarGrafo(int cantidad = 10)
+        public void MostrarGrafo(int cantidad = 300)
         {
             Console.WriteLine("📊 DEMOSTRACIÓN DEL GRAFO");
             Console.WriteLine("-------------------------");
