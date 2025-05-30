@@ -71,7 +71,7 @@ namespace Grafos
                 }
 
             }
-            
+
         }
 
         private void AgregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, bool vecinos = false)
@@ -166,7 +166,7 @@ namespace Grafos
             camino.Reverse();
             return (camino, distancias[destino]);
         }
-    
+
         public void MostrarPedidoGraficamente(int destino)
         {
             //Encontrar la sucursal más cercana al destino
@@ -179,6 +179,7 @@ namespace Grafos
                 var aux_camino = encontrarCamino(destino, s.id);
                 if (aux_camino.Item2 < caminoMasCorto && aux_camino.Item1 != null)
                 {
+                    Console.WriteLine($"Camino mas corto: {aux_camino.Item2} minutos");
                     caminoMasCorto = aux_camino.Item2;
                     idSucursalCercana = s.id;
                     caminoClienteSucursal = aux_camino.Item1;
@@ -191,11 +192,11 @@ namespace Grafos
             {
                 var caminoCentral = encontrarCamino(sucursalCentral.id, idSucursalCercana);
                 caminoCentralSucursal = caminoCentral.Item1;
+                Console.WriteLine($"Camino mas corto: {caminoCentral.Item2} minutos");
                 caminoMasCorto += caminoCentral.Item2;
             }
             var caminoTotal = new List<Vertice>();
             caminoClienteSucursal.Reverse();
-            //Eliminar el ultimo elemento de caminoCentralSucursal
             caminoCentralSucursal?.RemoveAt(caminoCentralSucursal.Count - 1);
             if (caminoCentralSucursal != null)
             {
@@ -206,22 +207,60 @@ namespace Grafos
 
                 caminoTotal.AddRange(caminoClienteSucursal);
             }
+            var tiempoEstimado = 0;
+            for (int i = 0; i < caminoTotal.Count; i++)
+            {
+                var v = caminoTotal[i];
 
+                if (i < caminoTotal.Count - 1)
+                {
+                    var siguiente = caminoTotal[i + 1];
+                    var arista = v.aristas.FirstOrDefault(a => a.destino.id == siguiente.id);
+                    if (arista != null)
+                    {
+                        tiempoEstimado += arista.tiempo_camino;
+                    }
+                }
+            }
+            Menu.cambiarColor(ConsoleColor.Green);
             Console.WriteLine("Se ha procesado su pedido: ");
-            Console.WriteLine($"Su ubicación es {vertices.Find(v => v.id == destino).departamento}");
-            Console.WriteLine($"Sucursal más cercana a su ubicación: {vertices.Find(v => v.id == idSucursalCercana).departamento}");
-            var tiempoEstimado = caminoMasCorto;
+            Menu.cambiarColor();
+            Console.Write("Su ubicación destino es: ");
+            Menu.cambiarColor(ConsoleColor.Yellow);
+            Console.WriteLine($"{vertices.Find(v => v.id == destino).departamento}");
+            Menu.cambiarColor();
+            Console.Write("Sucursal más cercana a su ubicación: ");
+            Menu.cambiarColor(ConsoleColor.Yellow);
+            Console.WriteLine($"{vertices.Find(v => v.id == idSucursalCercana).departamento}");
+            Menu.cambiarColor();
             if (tiempoEstimado > 60)
             {
                 int horas = tiempoEstimado / 60;
                 int minutos = tiempoEstimado % 60;
-                Console.WriteLine($"Tiempo estimado: {horas} horas y {minutos} minutos");
+
+                Console.Write("Tiempo estimado: ");
+                Menu.cambiarColor(ConsoleColor.Yellow);
+                Console.Write($"{horas}");
+                Menu.cambiarColor();
+                Console.Write(" horas y ");
+                Menu.cambiarColor(ConsoleColor.Yellow);
+                Console.Write($"{minutos}");
+                Menu.cambiarColor();
+                Console.WriteLine(" minutos");
+
             }
             else
             {
-                Console.WriteLine($"Tiempo estimado: {tiempoEstimado} minutos");
+                Console.Write("Tiempo estimado: ");
+                Menu.cambiarColor(ConsoleColor.Yellow);
+                Console.Write($"{tiempoEstimado}");
+                Menu.cambiarColor();
+                Console.WriteLine(" minutos");
+
             }
+            Menu.cambiarColor(ConsoleColor.Green);
             Console.WriteLine("Ruta:");
+            Menu.cambiarColor();
             for (int i = 0; i < caminoTotal.Count; i++)
             {
                 var v = caminoTotal[i];
@@ -245,7 +284,7 @@ namespace Grafos
                 }
                 else
                 {
-                    Console.WriteLine(); 
+                    Console.WriteLine();
                 }
             }
         }

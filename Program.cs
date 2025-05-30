@@ -2,7 +2,7 @@
 using Grafos;
 using Archivador;
 Grafo grafo = new Grafo();
-Menu.cargarAnimación();
+// Menu.cargarAnimación();
 Menu.cargarOpciones();
 bool correr = true;
 while (correr)
