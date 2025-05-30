@@ -9,8 +9,7 @@ public static class Menu
     public static void cargarOpciones()
     {
         opciones.Add(1, "Realizar pedido");
-        opciones.Add(2, "Ver departamentos disponibles");
-        opciones.Add(3, "Salir");
+        opciones.Add(2, "Salir");
     }
     private static void dibujarOpciones()
     {
@@ -24,10 +23,10 @@ public static class Menu
     {
         Console.Clear();
         cambiarColor(ConsoleColor.Red);
-        Console.SetCursorPosition(50,10);
+        Console.SetCursorPosition(50, 10);
         Console.Write("Cargando recursos");
         cambiarColor(ConsoleColor.Green);
-        
+
         for (var i = 0; i < 50; i++)
         {
             Console.Write(".");
@@ -35,7 +34,7 @@ public static class Menu
             {
                 Console.Clear();
                 cambiarColor(ConsoleColor.Red);
-                Console.SetCursorPosition(50,10);
+                Console.SetCursorPosition(50, 10);
                 Console.Write("Cargando recursos");
                 cambiarColor(ConsoleColor.Green);
             }
@@ -73,6 +72,15 @@ public static class Menu
         else
         {
             Console.ForegroundColor = (ConsoleColor)color;
+        }
+    }
+
+    public static void mostrarDepartamentos()
+    {
+        Console.WriteLine("ID\t|\tNombre");
+        foreach (var d in Departamentos.encontrarDepartamentos())
+        {
+            Console.WriteLine($"[{d.id}]\t\t{d.departamento}\t");
         }
     }
 }

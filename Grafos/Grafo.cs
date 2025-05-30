@@ -1,4 +1,6 @@
+using System.ComponentModel;
 using System.Numerics;
+using System.Runtime.Serialization;
 using Archivador;
 using Microsoft.VisualBasic;
 
@@ -51,51 +53,66 @@ namespace Grafos
             foreach (var v in vertices)
             {
                 // Conectar dentro del mismo departamento
-                var mismosDepto = vertices.FindAll(v => v.departamento == v.departamento && v.id != v.id);
-                AgregarConexiones(v, mismosDepto, rand, 3);
+                var mismosDepto = vertices.FindAll(d => d.departamento == v.departamento && d.id != v.id);
+                AgregarConexiones(v, mismosDepto, rand);
 
+                //Asegurarse de conectar la sucursal (si es que existe)
+                var sucursal = vertices.FindAll(v2 => v2.departamento == v.departamento && (v2.tipo == "sucursal" || v2.tipo == "sucursal central") && v2.id != v.id);
+                if (sucursal != null)
+                {
+                    AgregarConexiones(v, sucursal, rand);
+                }
                 // Conectar con departamentos vecinos si existen
                 if (vecinosDepartamentales.TryGetValue(v.departamento, out var vecinos))
                 {
                     var vecinosDepto = vertices.FindAll(v => vecinos.Contains(v.departamento));
-                    AgregarConexiones(v, vecinosDepto, rand, 2);
+                    vecinosDepto.RemoveAll(i => i.tipo == "sucursal" || i.tipo == "sucursal central");
+                    AgregarConexiones(v, vecinosDepto, rand, vecinos: true);
                 }
 
-                //Asegurarse de conectar la sucursal (si es que existe)
-                var sucursal = vertices.Find(v2 => v2.departamento == v.departamento && (v2.tipo == "sucursal" || v2.tipo == "sucursal central"));
-                if (sucursales != null)
-                {
-                    AgregarConexiones(v, sucursales, rand, 1);
-                }
             }
+            
         }
 
-        private void AgregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, int cantidadMax)
+        private void AgregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, bool vecinos = false)
         {
             HashSet<int> usados = new HashSet<int>();
-            for (int i = 0; i < cantidadMax && destinos.Count > 0; i++)
+            foreach (var destino in destinos)
             {
-                Vertice destino = destinos[rand.Next(destinos.Count)];
                 if (usados.Contains(destino.id)) continue;
 
                 usados.Add(destino.id);
-                int tiempo = rand.Next(10, 180);
+                int tiempo = 0;
+                if (vecinos)
+                {
+                    // Si es vecino, asignar un tiempo aleatorio entre 30 y 60 minutos
+                    tiempo = rand.Next(30, 60);
+                }
+                else if (origen.departamento == destino.departamento)
+                {
+                    // Si es del mismo departamento, asignar un tiempo aleatorio entre 10 y 30 minutos
+                    tiempo = rand.Next(10, 30);
+                }
+                else
+                {
+                    tiempo = rand.Next(60, 180);
+                }
                 origen.agregarArista(new Arista(origen, destino, tiempo));
             }
         }
 
-        public void encontrarCamino(int destinoId)
+        public (List<Vertice>, int) encontrarCamino(int origenId, int destinoId)
         {
-            var origenId = this.sucursales[0].id;
-            if (vertices == null) return;
+
+            if (vertices == null) return (null, 0);
 
             var origen = vertices.FirstOrDefault(v => v.id == origenId);
             var destino = vertices.FirstOrDefault(v => v.id == destinoId);
 
             if (origen == null || destino == null)
             {
-            Console.WriteLine("Origen o destino no encontrado.");
-            return;
+                Console.WriteLine("Origen o destino no encontrado.");
+                return (null, 0);
             }
 
             var distancias = new Dictionary<Vertice, int>();
@@ -105,77 +122,131 @@ namespace Grafos
 
             foreach (var v in vertices)
             {
-            distancias[v] = int.MaxValue;
-            previo[v] = null;
+                distancias[v] = int.MaxValue;
+                previo[v] = null;
             }
             distancias[origen] = 0;
             cola.Add((origen, 0));
 
             while (cola.Count > 0)
             {
-            // Extraer el nodo con menor prioridad (distancia)
-            cola.Sort((a, b) => a.prioridad.CompareTo(b.prioridad));
-            var actual = cola[0].vertice;
-            cola.RemoveAt(0);
+                // Extraer el nodo con menor prioridad (distancia)
+                cola.Sort((a, b) => a.prioridad.CompareTo(b.prioridad));
+                var actual = cola[0].vertice;
+                cola.RemoveAt(0);
 
-            if (visitados.Contains(actual)) continue;
-            visitados.Add(actual);
+                if (visitados.Contains(actual)) continue;
+                visitados.Add(actual);
 
-            if (actual == destino) break;
+                if (actual == destino) break;
 
-            foreach (var arista in actual.aristas)
-            {
-                var vecino = arista.destino;
-                int nuevaDist = distancias[actual] + arista.tiempo_camino;
-                if (nuevaDist < distancias[vecino])
+                foreach (var arista in actual.aristas)
                 {
-                distancias[vecino] = nuevaDist;
-                previo[vecino] = actual;
-                cola.Add((vecino, nuevaDist));
+                    var vecino = arista.destino;
+                    int nuevaDist = distancias[actual] + arista.tiempo_camino;
+                    if (nuevaDist < distancias[vecino])
+                    {
+                        distancias[vecino] = nuevaDist;
+                        previo[vecino] = actual;
+                        cola.Add((vecino, nuevaDist));
+                    }
                 }
-            }
             }
 
             if (distancias[destino] == int.MaxValue)
             {
-            Console.WriteLine("No existe un camino entre los nodos dados.");
-            return;
+                Console.WriteLine("No existe un camino entre los nodos dados.");
+                return (null, 0);
             }
 
             // Reconstruir el camino
             var camino = new List<Vertice>();
             for (var v = destino; v != null; v = previo[v])
-            camino.Add(v);
+                camino.Add(v);
             camino.Reverse();
-
-            Console.WriteLine($"Camino más corto de Sucursal Central {vertices.Find(v => v.id == origenId).departamento} a {vertices.Find(v => v.id == destinoId).departamento} (tiempo total: {distancias[destino]} min):");
-            foreach (var v in camino)
-            {
-            Console.Write($"{v.id} ");
-            }
-            Console.WriteLine();
+            return (camino, distancias[destino]);
         }
-        public void MostrarGrafo(int cantidad = 300)
+    
+        public void MostrarPedidoGraficamente(int destino)
         {
-            Console.WriteLine("📊 DEMOSTRACIÓN DEL GRAFO");
-            Console.WriteLine("-------------------------");
+            //Encontrar la sucursal más cercana al destino
+            int idSucursalCercana = 0;
+            int caminoMasCorto = int.MaxValue;
+            List<Vertice> caminoClienteSucursal = null;
 
-            foreach (var v in this.vertices.Take(cantidad))
+            foreach (var s in this.sucursales)
             {
-                Console.WriteLine($"Punto ID {v.id} ({v.tipo} - {v.departamento})");
-
-                if (v.aristas.Count == 0)
+                var aux_camino = encontrarCamino(destino, s.id);
+                if (aux_camino.Item2 < caminoMasCorto && aux_camino.Item1 != null)
                 {
-                    Console.WriteLine("Sin conexiones.");
-                    continue;
+                    caminoMasCorto = aux_camino.Item2;
+                    idSucursalCercana = s.id;
+                    caminoClienteSucursal = aux_camino.Item1;
                 }
+            }
 
-                foreach (var a in v.aristas)
+            var sucursalCentral = this.sucursales.FirstOrDefault(s => s.tipo == "sucursal central");
+            List<Vertice> caminoCentralSucursal = null;
+            if (sucursalCentral != null && sucursalCentral.id != idSucursalCercana)
+            {
+                var caminoCentral = encontrarCamino(sucursalCentral.id, idSucursalCercana);
+                caminoCentralSucursal = caminoCentral.Item1;
+                caminoMasCorto += caminoCentral.Item2;
+            }
+            var caminoTotal = new List<Vertice>();
+            caminoClienteSucursal.Reverse();
+            //Eliminar el ultimo elemento de caminoCentralSucursal
+            caminoCentralSucursal?.RemoveAt(caminoCentralSucursal.Count - 1);
+            if (caminoCentralSucursal != null)
+            {
+                caminoTotal.AddRange(caminoCentralSucursal);
+            }
+            if (caminoClienteSucursal != null)
+            {
+
+                caminoTotal.AddRange(caminoClienteSucursal);
+            }
+
+            Console.WriteLine("Se ha procesado su pedido: ");
+            Console.WriteLine($"Su ubicación es {vertices.Find(v => v.id == destino).departamento}");
+            Console.WriteLine($"Sucursal más cercana a su ubicación: {vertices.Find(v => v.id == idSucursalCercana).departamento}");
+            var tiempoEstimado = caminoMasCorto;
+            if (tiempoEstimado > 60)
+            {
+                int horas = tiempoEstimado / 60;
+                int minutos = tiempoEstimado % 60;
+                Console.WriteLine($"Tiempo estimado: {horas} horas y {minutos} minutos");
+            }
+            else
+            {
+                Console.WriteLine($"Tiempo estimado: {tiempoEstimado} minutos");
+            }
+            Console.WriteLine("Ruta:");
+            for (int i = 0; i < caminoTotal.Count; i++)
+            {
+                var v = caminoTotal[i];
+                string marca = "[*]";
+                Console.Write($"{marca} Punto ID {v.id} ({v.tipo} - {v.departamento})");
+
+                if (i < caminoTotal.Count - 1)
                 {
-                    Console.WriteLine($"->Conecta a ID {a.destino.id} ({a.destino.departamento}) en {a.tiempo_camino} min");
+                    var siguiente = caminoTotal[i + 1];
+                    var arista = v.aristas.FirstOrDefault(a => a.destino.id == siguiente.id);
+                    if (arista != null)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine($"   ===> ID {arista.destino.id} ({arista.destino.departamento}) en {arista.tiempo_camino} min");
+                    }
+                    else
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("   ===> (sin información de arista)");
+                    }
                 }
-
-                Console.WriteLine();
+                else
+                {
+                    Console.WriteLine(); 
+                }
             }
         }
 
