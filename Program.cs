@@ -18,7 +18,7 @@ while (correr)
                 Console.Write("Selecciona tu departamento donde te ubicas: ");
                 int departamentoSeleccionado = Int32.Parse(Console.ReadLine());
                 Console.Clear();
-                grafo.MostrarPedidoGraficamente(departamentoSeleccionado);
+                Ruta.MostrarRuta(grafo,departamentoSeleccionado);
                 break;
             case 2:
                 Console.Clear();

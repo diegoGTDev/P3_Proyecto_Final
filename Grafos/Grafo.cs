@@ -8,10 +8,10 @@ namespace Grafos
 {
     public class Grafo
     {
-        private Dictionary<string, List<string>>? departamentosVecinos { get; set; }
-        private List<Vertice>? vertices { get; set; }
+        public Dictionary<string, List<string>>? departamentosVecinos { get; set; }
+        public List<Vertice>? vertices { get; set; }
 
-        private List<Vertice> sucursales { get; set; }
+        public List<Vertice> sucursales { get; set; }
 
         public Grafo()
         {
@@ -22,13 +22,13 @@ namespace Grafos
 
         }
 
-        private void cargarVertices()
+        public void cargarVertices()
         {
             ArchivadorJSON archivador = new ArchivadorJSON("src/puntos_guatemala_500.json");
             this.vertices = archivador.cargarDatos();
         }
 
-        private void cargarSucursales()
+        public void cargarSucursales()
         {
             ArchivadorJSON archivador = new ArchivadorJSON("src/sucursales.json");
             this.sucursales = archivador.cargarDatos();
@@ -41,7 +41,7 @@ namespace Grafos
                 Console.WriteLine($"Sucursal {v.departamento}");
             }
         }
-        private void cargarVecinos()
+        public void cargarVecinos()
         {
             departamentosVecinos = CargadorVecinos.CargarVecinosDesdeJson("src/departamentos_vecinos.json");
         }
@@ -165,128 +165,6 @@ namespace Grafos
                 camino.Add(v);
             camino.Reverse();
             return (camino, distancias[destino]);
-        }
-
-        public void MostrarPedidoGraficamente(int destino)
-        {
-            //Encontrar la sucursal más cercana al destino
-            int idSucursalCercana = 0;
-            int caminoMasCorto = int.MaxValue;
-            List<Vertice> caminoClienteSucursal = null;
-
-            foreach (var s in this.sucursales)
-            {
-                var aux_camino = encontrarCamino(destino, s.id);
-                if (aux_camino.Item2 < caminoMasCorto && aux_camino.Item1 != null)
-                {
-                    Console.WriteLine($"Camino mas corto: {aux_camino.Item2} minutos");
-                    caminoMasCorto = aux_camino.Item2;
-                    idSucursalCercana = s.id;
-                    caminoClienteSucursal = aux_camino.Item1;
-                }
-            }
-
-            var sucursalCentral = this.sucursales.FirstOrDefault(s => s.tipo == "sucursal central");
-            List<Vertice> caminoCentralSucursal = null;
-            if (sucursalCentral != null && sucursalCentral.id != idSucursalCercana)
-            {
-                var caminoCentral = encontrarCamino(sucursalCentral.id, idSucursalCercana);
-                caminoCentralSucursal = caminoCentral.Item1;
-                Console.WriteLine($"Camino mas corto: {caminoCentral.Item2} minutos");
-                caminoMasCorto += caminoCentral.Item2;
-            }
-            var caminoTotal = new List<Vertice>();
-            caminoClienteSucursal.Reverse();
-            caminoCentralSucursal?.RemoveAt(caminoCentralSucursal.Count - 1);
-            if (caminoCentralSucursal != null)
-            {
-                caminoTotal.AddRange(caminoCentralSucursal);
-            }
-            if (caminoClienteSucursal != null)
-            {
-
-                caminoTotal.AddRange(caminoClienteSucursal);
-            }
-            var tiempoEstimado = 0;
-            for (int i = 0; i < caminoTotal.Count; i++)
-            {
-                var v = caminoTotal[i];
-
-                if (i < caminoTotal.Count - 1)
-                {
-                    var siguiente = caminoTotal[i + 1];
-                    var arista = v.aristas.FirstOrDefault(a => a.destino.id == siguiente.id);
-                    if (arista != null)
-                    {
-                        tiempoEstimado += arista.tiempo_camino;
-                    }
-                }
-            }
-            Menu.cambiarColor(ConsoleColor.Green);
-            Console.WriteLine("Se ha procesado su pedido: ");
-            Menu.cambiarColor();
-            Console.Write("Su ubicación destino es: ");
-            Menu.cambiarColor(ConsoleColor.Yellow);
-            Console.WriteLine($"{vertices.Find(v => v.id == destino).departamento}");
-            Menu.cambiarColor();
-            Console.Write("Sucursal más cercana a su ubicación: ");
-            Menu.cambiarColor(ConsoleColor.Yellow);
-            Console.WriteLine($"{vertices.Find(v => v.id == idSucursalCercana).departamento}");
-            Menu.cambiarColor();
-            if (tiempoEstimado > 60)
-            {
-                int horas = tiempoEstimado / 60;
-                int minutos = tiempoEstimado % 60;
-
-                Console.Write("Tiempo estimado: ");
-                Menu.cambiarColor(ConsoleColor.Yellow);
-                Console.Write($"{horas}");
-                Menu.cambiarColor();
-                Console.Write(" horas y ");
-                Menu.cambiarColor(ConsoleColor.Yellow);
-                Console.Write($"{minutos}");
-                Menu.cambiarColor();
-                Console.WriteLine(" minutos");
-
-            }
-            else
-            {
-                Console.Write("Tiempo estimado: ");
-                Menu.cambiarColor(ConsoleColor.Yellow);
-                Console.Write($"{tiempoEstimado}");
-                Menu.cambiarColor();
-                Console.WriteLine(" minutos");
-
-            }
-            Menu.cambiarColor(ConsoleColor.Green);
-            Console.WriteLine("Ruta:");
-            Menu.cambiarColor();
-            for (int i = 0; i < caminoTotal.Count; i++)
-            {
-                var v = caminoTotal[i];
-                string marca = "[*]";
-                Console.Write($"{marca} Punto ID {v.id} ({v.tipo} - {v.departamento})");
-
-                if (i < caminoTotal.Count - 1)
-                {
-                    var siguiente = caminoTotal[i + 1];
-                    var arista = v.aristas.FirstOrDefault(a => a.destino.id == siguiente.id);
-                    if (arista != null)
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine($"   ===> ID {arista.destino.id} ({arista.destino.departamento}) en {arista.tiempo_camino} min");
-                    }
-                    else
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine("   ===> (sin información de arista)");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine();
-                }
-            }
         }
 
 
