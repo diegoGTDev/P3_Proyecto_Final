@@ -11,14 +11,14 @@ namespace Grafos
         public Dictionary<string, List<string>>? departamentosVecinos { get; set; }
         public List<Vertice>? vertices { get; set; }
 
-        public List<Vertice> sucursales { get; set; }
+        public List<Vertice>? sucursales { get; set; }
 
         public Grafo()
         {
             this.cargarVecinos();
             this.cargarVertices();
             this.cargarSucursales();
-            this.ConectarGeograficamente(this.vertices, this.departamentosVecinos);
+            this.conectarGeograficamente(this.vertices ?? new List<Vertice>(), this.departamentosVecinos ?? new Dictionary<string, List<string>>());
 
         }
 
@@ -33,20 +33,12 @@ namespace Grafos
             ArchivadorJSON archivador = new ArchivadorJSON("src/sucursales.json");
             this.sucursales = archivador.cargarDatos();
         }
-
-        public void mostrarSucursales()
-        {
-            foreach (var v in this.sucursales)
-            {
-                Console.WriteLine($"Sucursal {v.departamento}");
-            }
-        }
         public void cargarVecinos()
         {
             departamentosVecinos = CargadorVecinos.CargarVecinosDesdeJson("src/departamentos_vecinos.json");
         }
 
-        public void ConectarGeograficamente(List<Vertice> vertices, Dictionary<string, List<string>> vecinosDepartamentales)
+        public void conectarGeograficamente(List<Vertice> vertices, Dictionary<string, List<string>> vecinosDepartamentales)
         {
             Random rand = new Random();
 
@@ -54,27 +46,27 @@ namespace Grafos
             {
                 // Conectar dentro del mismo departamento
                 var mismosDepto = vertices.FindAll(d => d.departamento == v.departamento && d.id != v.id);
-                AgregarConexiones(v, mismosDepto, rand);
+                agregarConexiones(v, mismosDepto, rand);
 
                 //Asegurarse de conectar la sucursal (si es que existe)
                 var sucursal = vertices.FindAll(v2 => v2.departamento == v.departamento && (v2.tipo == "sucursal" || v2.tipo == "sucursal central") && v2.id != v.id);
                 if (sucursal != null)
                 {
-                    AgregarConexiones(v, sucursal, rand);
+                    agregarConexiones(v, sucursal, rand);
                 }
                 // Conectar con departamentos vecinos si existen
                 if (vecinosDepartamentales.TryGetValue(v.departamento, out var vecinos))
                 {
                     var vecinosDepto = vertices.FindAll(v => vecinos.Contains(v.departamento));
                     vecinosDepto.RemoveAll(i => i.tipo == "sucursal" || i.tipo == "sucursal central");
-                    AgregarConexiones(v, vecinosDepto, rand, vecinos: true);
+                    agregarConexiones(v, vecinosDepto, rand, vecinos: true);
                 }
 
             }
 
         }
 
-        private void AgregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, bool vecinos = false)
+        private void agregarConexiones(Vertice origen, List<Vertice> destinos, Random rand, bool vecinos = false)
         {
             HashSet<int> usados = new HashSet<int>();
             foreach (var destino in destinos)
@@ -156,7 +148,7 @@ namespace Grafos
             if (distancias[destino] == int.MaxValue)
             {
                 Console.WriteLine("No existe un camino entre los nodos dados.");
-                return (null, 0);
+                return (new List<Vertice>(), 0);
             }
 
             // Reconstruir el camino
